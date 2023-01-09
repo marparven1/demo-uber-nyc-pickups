@@ -167,6 +167,9 @@ with row2_4:
 chart_data = histdata(data, hour_selected)
 
 # LAYING OUT THE HISTOGRAM SECTION
+st.write("""
+         Este es un ejemolo para ver si funciona
+         """)
 st.write(
     f"""**Breakdown of rides per minute between {hour_selected}:00 and {(hour_selected + 1) % 24}:00**"""
 )
