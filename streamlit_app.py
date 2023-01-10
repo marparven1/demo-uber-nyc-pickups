@@ -120,7 +120,7 @@ def update_query_params():
 
 
 with row1_1:
-    st.title("Vitamina C, tiamina e hidrocortisona:\n¿aliados en shock séptico?")
+    st.title("Vitamina C, tiamina e hidrocortisona:<br>¿aliados en shock séptico?")
     hour_selected = st.slider(
         "Select hour of pickup", 0, 23, key="pickup_hour", on_change=update_query_params
     )
